@@ -307,7 +307,7 @@
 "name": "The Order",
 "team": "fabled",
 "ability": "There is EXACTLY ONE set of 5 townsfolk that forms a straight. If a straight is formed in either increasing or decreasing seating order, the good team immediately wins."
-}
+},
 {
 "id": "The Phantom Express",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/ExpressIcon4.png",
@@ -316,7 +316,7 @@
 "name": "The Phantom Express",
 "team": "fabled",
 "ability": "When a living player is executed, they may choose any new seating position. When a dead player is executed, they move to the other side of the table."
-}
+},
 {
 "id": "Bonus Execution",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/GoopyIcon3.png",
