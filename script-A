@@ -42,8 +42,8 @@
 {
 "id": "4 of Clubs",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/4-modified.png",
-"firstNight": 14,
-"otherNightReminder":"Prompt the player to choose 2 players.",
+"firstNight": 0,
+"otherNightReminder":"",
 "otherNight": 14,
 "otherNightReminder":"Prompt the player to choose 2 players.",
 "reminders": [],
@@ -55,22 +55,22 @@
 {
 "id": "5 of Hearts",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/5-modified.png",
-"firstNight": 14,
-"firstNightReminder":"@ Mons Insurance points to a player. Add an insurance token to that player, and show the hand signal for the number of tokens that player has.",
-"otherNight": 35,
-"otherNightReminder": "@ Mons Insurance points to a player. Add an insurance token to that player, and show the hand signal for the number of tokens that player has.",
-"reminders": ["T-Insurance"],
+"firstNight": 15,
+"firstNightReminder":"Show two players, one of which is a particular Minion.",
+"otherNight": 0,
+"otherNightReminder": "",
+"reminders": [],
 "setup": false,
 "name": "5 of Hearts",
 "team": "townsfolk",
-"ability": "Each night, choose a player: They receive an INSURANCE TOKEN: If they would die from the demon, you die instead. Then, learn how many tokens they have."
+"ability": "You start knowing that 1 of 2 players is a particular Minion."
 },
 {
 "id": "6 of Spades",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/6-modified.png",
 "firstNight": 0,
 "firstNightReminder":"",
-"otherNight": 11,
+"otherNight": 16,
 "otherNightReminder": "Give a yes or no accordingly.",
 "reminders": [],
 "setup": false,
@@ -81,10 +81,10 @@
 {
 "id": "7 of Diamonds",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/7-modified.png",
-"firstNight": 12,
-"firstNightReminder":"@ The Mad Hatter points to 3 different players, not themselves. Show the head signal according to the number of Townsfolk.",
-"otherNight": 33,
-"otherNightReminder": "@ The Mad Hatter points to 3 different players, not themselves. Show the head signal according to the number of Townsfolk.",
+"firstNight": 17,
+"firstNightReminder": "Show the corresponding number for how many part of the straight.",
+"otherNight": 17,
+"otherNightReminder": "Show the corresponding number for how many part of the straight.",
 "reminders": [],
 "setup": false,
 "name": "7 of Diamonds",
@@ -94,22 +94,22 @@
 {
 "id": "8 of Diamonds",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/8-modified.png",
-"firstNight": 0,
-"firstNightReminder":"",
-"otherNight": 38,
-"otherNightReminder": "@ Necromancer may choose to use their ability; if yes, they point to a dead player. If the Necromancer had at least 1 token, and that player is a Townsfolk, they are now alive.",
+"firstNight": 18,
+"firstNightReminder": "Show the corresponding number for how many Townsfolk.",
+"otherNight": 18,
+"otherNightReminder": "Show the corresponding number for how many Townsfolk.",
 "reminders": [],
 "setup": false,
 "name": "8 of Diamonds",
 "team": "townsfolk",
-"ability": "Each night, learn how many of your 2 alive neighbors are part of the straight."
+"ability": "Each night, learn how many of your 2 alive neighbors are Townsfolk."
 },
 {
 "id": "9 of Spades",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/9-modified.png",
 "firstNight": 0,
 "firstNightReminder":"",
-"otherNight": 37,
+"otherNight": 19,
 "otherNightReminder": "Give a yes or no accordingly.",
 "reminders": [],
 "setup": false,
@@ -120,7 +120,7 @@
 {
 "id": "10 of Hearts",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/10-modified.png",
-"firstNight": 0,
+"firstNight": 20,
 "firstNightReminder":"",
 "otherNight": 0,
 "otherNightReminder": "",
@@ -159,9 +159,9 @@
 {
 "id": "King of Spades",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/13-modified.png",
-"firstNight": 1,
-"firstNightReminder":"Skip the Minion info and Demon info phase.",
-"otherNight": 7,
+"firstNight": 0,
+"firstNightReminder":"",
+"otherNight": 23,
 "otherNightReminder": "Give a yes or no accordingly.",
 "reminders": [],
 "setup": false,
@@ -187,20 +187,20 @@
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/Icon_barber.png",
 "firstNight": 0,
 "firstNightReminder":"",
-"otherNight": 8,
+"otherNight": 9,
 "otherNightReminder": "",
 "reminders": [],
 "setup": false,
 "name": " Barber",
 "team": "outsider",
-"ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters."
+"ability": "If you died today or tonight, the Demon may choose 2 players to swap characters."
 },
 {
 "id": "Moonchild",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/Icon_moonchild.png",
 "firstNight": 0,
 "firstNightReminder":"",
-"otherNight": 9,
+"otherNight": 10,
 "otherNightReminder": "",
 "reminders": ["Chosen"],
 "setup": false,
@@ -300,6 +300,32 @@
 "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead."
 },
 {
+"id": "Cuphead",
+"image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/cuphead-modified.png",
+"firstNight": 0,
+"firstNightReminder":"",
+"otherNight": 7,
+"otherNightReminder": "Prompt to choose a player to kill.",
+"reminders": [],
+"setup": true,
+"name": "Cuphead",
+"team": "demon",
+"ability": "Each night*, choose a player: they die. If you chose a different player to Mugman, you are drunk tonight. [+1 Mugman]"
+},
+{
+"id": "Mugman",
+"image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/mugman-modified.png",
+"firstNight": 0,
+"firstNightReminder":"",
+"otherNight": 8,
+"otherNightReminder": "Prompt to choose a player to kill.",
+"reminders": [],
+"setup": true,
+"name": "Mugman",
+"team": "demon",
+"ability": "Each night*, choose a player: they die. If you chose the same player as Cuphead, you may move that player to any location. [+1 Cuphead]"
+},
+{
 "id": "The Order",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/Straight-modified.png",
 "reminders": ["Straight"],
@@ -307,7 +333,7 @@
 "name": "The Order",
 "team": "fabled",
 "ability": "There is EXACTLY ONE set of 5 townsfolk that forms a straight. If a straight is formed in either increasing or decreasing seating order, the good team immediately wins."
-},
+}
 {
 "id": "The Phantom Express",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/ExpressIcon4.png",
@@ -316,7 +342,7 @@
 "name": "The Phantom Express",
 "team": "fabled",
 "ability": "When a living player is executed, they may choose any new seating position. When a dead player is executed, they move to the other side of the table."
-},
+}
 {
 "id": "Bonus Execution",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/GoopyIcon3.png",
