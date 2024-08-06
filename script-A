@@ -24,7 +24,7 @@
 "setup": false,
 "name": "2 of Spades",
 "team": "townsfolk",
-"ability": "On your first day, choose 5 players, learn if at least 4 are townsfolk."
+"ability": "On your first day, choose 5 players, learn if at least 4 are Townsfolk."
 },
 {
 "id": "3 of Clubs",
@@ -76,7 +76,7 @@
 "setup": false,
 "name": "6 of Spades",
 "team": "townsfolk",
-"ability": "On your first day, choose 5 players, learn if at least 4 are townsfolk."
+"ability": "On your first day, choose 5 players, learn if at least 4 are Townsfolk."
 },
 {
 "id": "7 of Diamonds",
@@ -115,20 +115,20 @@
 "setup": false,
 "name": "9 of Spades",
 "team": "townsfolk",
-"ability": "On your first day, choose 5 players, learn if at least 4 are townsfolk."
+"ability": "On your first day, choose 5 players, learn if at least 4 are Townsfolk."
 },
 {
 "id": "10 of Hearts",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/10-modified.png",
 "firstNight": 20,
-"firstNightReminder":"Show 2 players that are not the demon",
+"firstNightReminder":"Show 2 players that are not the Demon",
 "otherNight": 0,
 "otherNightReminder": "",
 "reminders": [],
 "setup": false,
 "name": "10 of Hearts",
 "team": "townsfolk",
-"ability": "You start knowing that 2 players are not the demon."
+"ability": "You start knowing that 2 players are not the Demon."
 },
 {
 "id": "Jack of Clubs",
@@ -167,7 +167,7 @@
 "setup": false,
 "name": "King of Spades",
 "team": "townsfolk",
-"ability": "On your first day, choose 5 players, learn if at least 4 are townsfolk."
+"ability": "On your first day, choose 5 players, learn if at least 4 are Townsfolk."
 },
 {
 "id": "Drunk",
@@ -284,7 +284,7 @@
 "setup": false,
 "name": "King Dice",
 "team": "demon",
-"ability": "Each night*, choose a player: they die. When you nominate a living minion, silently swap characters with them."
+"ability": "Each night*, choose a player: they die. When you nominate a living Minion, silently swap characters with them."
 },
 {
 "id": "The Devil",
@@ -332,7 +332,7 @@
 "setup": false,
 "name": "The Order",
 "team": "fabled",
-"ability": "There is EXACTLY ONE set of 5 townsfolk that forms a straight. If a straight is formed in either increasing or decreasing seating order, the good team immediately wins."
+"ability": "There is EXACTLY ONE set of 5 Townsfolk that forms a straight. If a straight is formed in either increasing or decreasing seating order, the good team immediately wins."
 },
 {
 "id": "The Phantom Express",
