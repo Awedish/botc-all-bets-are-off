@@ -235,6 +235,19 @@
 "ability": "Each night, choose a player & a good character: they are mad they are this character tomorrow, or might be executed."
 },
 {
+"id": "Phear Lap",
+"image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/PhearIcon.png",
+"firstNight": 4,
+"firstNightReminder":"Reveal the secret word.",
+"otherNight": 0,
+"otherNightReminder": "",
+"reminders": ["Evil/Poisoned"],
+"setup": false,
+"name": "Phear Lap",
+"team": "minion",
+"ability": "You start knowing a secret word. The 1st good player to say this word in public becomes evil and poisoned for the rest of the game tonight."
+},
+{
 "id": "Hopus Pocus",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/HopusIcon.png",
 "firstNight": 2,
@@ -259,19 +272,6 @@
 "name": "Mr. Wheezy",
 "team": "minion",
 "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don’t die."
-},
-{
-"id": "Phear Lap",
-"image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/PhearIcon.png",
-"firstNight": 4,
-"firstNightReminder":"Reveal the secret word.",
-"otherNight": 0,
-"otherNightReminder": "",
-"reminders": ["Evil/Poisoned"],
-"setup": false,
-"name": "Phear Lap",
-"team": "minion",
-"ability": "You start knowing a secret word. The 1st good player to say this word in public becomes evil and poisoned for the rest of the game tonight."
 },
 {
 "id": "King Dice",
@@ -335,15 +335,6 @@
 "ability": "There is EXACTLY ONE set of 5 Townsfolk that forms a straight. If a straight is formed in either increasing or decreasing seating order, the good team immediately wins."
 },
 {
-"id": "The Phantom Express",
-"image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/ExpressIcon4.png",
-"reminders": [],
-"setup": false,
-"name": "The Phantom Express",
-"team": "fabled",
-"ability": "When a living player is executed, they may choose any new seating position. When a dead player is executed, they move to the other side of the table."
-},
-{
 "id": "Bonus Execution",
 "image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/GoopyIcon3.png",
 "reminders": [],
@@ -351,5 +342,14 @@
 "name": "Bonus Execution",
 "team": "fabled",
 "ability": "When the day ends, the town may nominate a dead player for a second execution. The Devil registering as dead is a valid nomination but will remain alive if executed again this way."
+},
+{
+"id": "The Phantom Express",
+"image": "https://raw.githubusercontent.com/Awedish/botc-all-bets-are-off/main/ExpressIcon4.png",
+"reminders": [],
+"setup": false,
+"name": "The Phantom Express",
+"team": "fabled",
+"ability": "When a living player is executed, they may choose any new seating position. When a dead player is executed, they move to the other side of the table."
 }
 ]
