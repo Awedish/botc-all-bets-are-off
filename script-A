@@ -306,11 +306,11 @@
 "firstNightReminder":"",
 "otherNight": 7,
 "otherNightReminder": "Prompt to choose a player to kill.",
-"reminders": [],
+"reminders": ["Target"],
 "setup": true,
 "name": "Cuphead",
 "team": "demon",
-"ability": "Each night*, choose a player: they die. If you chose a different player to Mugman, you are drunk tonight. [+1 Mugman]"
+"ability": "Each night*, choose a player: they die. If you choose a different player to Mugman, you are drunk tonight. [+1 Mugman]"
 },
 {
 "id": "Mugman",
@@ -323,7 +323,7 @@
 "setup": true,
 "name": "Mugman",
 "team": "demon",
-"ability": "Each night*, choose a player: they die. If you chose the same player as Cuphead, you may move that player to any location. [+1 Cuphead]"
+"ability": "Each night*, choose a player: they die. If you choose the same player as Cuphead, you may choose a new location for that player beginning next day. [+1 Cuphead]"
 },
 {
 "id": "The Order",
