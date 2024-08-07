@@ -24,7 +24,7 @@
 "setup": false,
 "name": "2 of Spades",
 "team": "townsfolk",
-"ability": "On your first day, choose 5 players, learn if at least 4 are Townsfolk."
+"ability": "On your first day, publicly choose 5 players. That night, learn if at least 4 are good."
 },
 {
 "id": "3 of Clubs",
@@ -71,12 +71,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 16,
-"otherNightReminder": "Give a yes or no accordingly.",
+"otherNightReminder": "Give the number of correct guesses.",
 "reminders": [],
 "setup": false,
 "name": "6 of Spades",
 "team": "townsfolk",
-"ability": "On your first day, choose 5 players, learn if at least 4 are Townsfolk."
+"ability": "On your 1st day, publicly guess up to 5 players' characters. That night, learn how many were correct."
 },
 {
 "id": "7 of Diamonds",
@@ -110,12 +110,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 19,
-"otherNightReminder": "Give a yes or no accordingly.",
+"otherNightReminder": "Give the number of correct guesses.",
 "reminders": [],
 "setup": false,
 "name": "9 of Spades",
 "team": "townsfolk",
-"ability": "On your first day, choose 5 players, learn if at least 4 are Townsfolk."
+"ability": "On your 1st day, publicly guess up to 5 players' characters. That night, learn how many were correct."
 },
 {
 "id": "10 of Hearts",
@@ -167,7 +167,7 @@
 "setup": false,
 "name": "King of Spades",
 "team": "townsfolk",
-"ability": "On your first day, choose 5 players, learn if at least 4 are Townsfolk."
+"ability": "On your first day, publicly choose 5 players. That night, learn if at least 4 are good."
 },
 {
 "id": "Drunk",
@@ -242,7 +242,7 @@
 "otherNight": 2,
 "otherNightReminder":"Prompt to choose a player.",
 "reminders": ["Cursed"],
-"setup": true,
+"setup": false,
 "name": "Hopus Pocus",
 "team": "minion",
 "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability."
@@ -294,7 +294,7 @@
 "otherNight": 6,
 "otherNightReminder": "Prompt to choose a player to kill.",
 "reminders": [],
-"setup": true,
+"setup": false,
 "name": "The Devil",
 "team": "demon",
 "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead."
