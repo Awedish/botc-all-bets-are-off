@@ -351,5 +351,14 @@
 "name": "The Phantom Express",
 "team": "fabled",
 "ability": "When a living player is executed, they may choose any new seating position. When a dead player is executed, they move to the other side of the table."
+},
+{
+"id": "Snitch",
+"image": "https://wiki.bloodontheclocktower.com/images/c/c1/Icon_snitch.png",
+"reminders": [],
+"setup": false,
+"name": "Snitch",
+"team": "fabled",
+"ability": "Minions start knowing 3 not-in-play characters."
 }
 ]
